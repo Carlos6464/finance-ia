@@ -1,11 +1,7 @@
-import Transaactions from "./transactions/page";
-
-
 export default function Home() {
   return (
-    <>
-      <h1>Hello word</h1>
-      <Transaactions/>
-    </>
+    <div className="flex w-screen items-center justify-center">
+      <h1 className="text-red-500">Hello word</h1>
+    </div>
   );
 }
