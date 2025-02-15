@@ -1,7 +1,11 @@
+import Navbar from "../_components/navbar";
+
 const subscription = () => {
-    return ( 
-        <p>Subscriptions</p>
-     );
-}
- 
+  return (
+    <>
+      <Navbar />
+    </>
+  );
+};
+
 export default subscription;
