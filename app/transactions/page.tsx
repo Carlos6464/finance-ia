@@ -29,7 +29,7 @@ const Transactions = async () => {
           <h1 className="text-2xl font-bold">Transações</h1>
           <AddTransactionButton />
         </div>
-        <ScrollArea>
+        <ScrollArea style={{ height: "100%", maxHeight: "750px" }}>
           <DataTable
             columns={transactionsColumns}
             data={JSON.parse(JSON.stringify(transactions))}
