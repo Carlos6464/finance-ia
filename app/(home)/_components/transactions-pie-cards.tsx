@@ -51,7 +51,7 @@ const TransacationPipeCards = ({
     },
   ];
   return (
-    <Card className="flex flex-col gap-8 p-12">
+    <Card className="flex h-full flex-col gap-8 p-6">
       <CardContent className="flex-1 pb-0">
         <ChartContainer
           config={chartConfig}
